@@ -1,0 +1,27 @@
+{
+    "name": "yaoxy/function-common",
+    "description": "function-common公共函数",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "yaoxy",
+            "email": "791903600@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Yaoxy\\function-common\\": "src/"
+        },
+        "files": [
+            "src/Functions.php",
+            "src/SecretFunctions.php"
+        ]
+    }
+}
